@@ -64,7 +64,7 @@
     padding-top: 85px;
 }
 
-.second-content, .third-content{
+.second-content, .third-content, .fourth-content{
     max-width: 650px;
     min-width: 300px;
     margin: 0 auto;
@@ -102,4 +102,19 @@ hr{
 .img-partner{
     width: 400px;
     height: 350px;
+}
+
+.business-photo{
+    width: 200px;
+}
+
+.row-fourth-content {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.col-fourth-content {
+    flex-basis: calc(100% / 3 - 25px);
+    flex-grow: 1;
 }
