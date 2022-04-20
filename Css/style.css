@@ -27,12 +27,12 @@
     background-color: aqua;
 }
 
-.first-container {
+.main-container {
     width: 100%;
     display: flex;
     align-items: center;
     margin-top: 40px;
-    background-color: aquamarine;
+    
 }
 
 .first-container-title{
@@ -64,7 +64,7 @@
     padding-top: 85px;
 }
 
-.second-content{
+.second-content, .third-content{
     max-width: 650px;
     min-width: 300px;
     margin: 0 auto;
@@ -93,5 +93,13 @@ hr{
 
 .large-row-second-content{
     display: flex;
-    
+
+}
+.third-content{
+    display: flex;
+}
+
+.img-partner{
+    width: 400px;
+    height: 350px;
 }
