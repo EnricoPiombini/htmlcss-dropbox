@@ -27,6 +27,14 @@
     background-color: aqua;
 }
 
+.main-container{
+    padding-bottom: 80px;
+}
+
+.s-title{
+    padding-bottom: 30px;
+}
+
 .first-container-title {
     font-size: 55px;
 }
@@ -56,24 +64,43 @@
     padding-top: 85px;
 }
 
+.info-plan{
+    padding: .5rem;
+    padding-bottom: .5rem;
+}
+
 .second-content,
 .third-content,
 .fourth-content,
 .fifth-content,
-.sixth-content {
+.sixth-content,
+.seventh-content {
     max-width: 650px;
     min-width: 300px;
     margin: 0 auto;
 }
 
-hr {
+.eigth-content {
+    width: 750px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+.hr-small-width {}
+
+.hr-mid-width {
     width: 20%;
+}
+
+.hr-max-width {
+    width: 100%;
 }
 
 .row-second-content {
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 
 .col-second-content {
@@ -82,13 +109,24 @@ hr {
     border: 1px solid grey;
 }
 
+.radio-button{
+    padding: .5rem;
+}
+
+.second-card-title{
+    margin-bottom: 1rem;
+}
+
+
 .col-sub-title {
-    border: 1px solid grey;
+   border: 1px solid grey;
     text-align: center;
+    padding: .5rem;
 }
 
 .large-row-second-content {
     display: flex;
+    border: 1px solid grey;
 
 }
 
@@ -116,14 +154,32 @@ hr {
     flex-grow: 1;
 }
 
-.sixth-content{
+.sixth-content {
     display: flex;
     justify-content: space-between;
 }
-.fifth-title{
+
+.fifth-title {
     width: 400px;
 }
 
-.sixth-final-title{
+.sixth-final-title {
     width: 290px;
+}
+
+.unibox-img {
+    width: 150px;
+    background-color: aqua;
+}
+
+.ft-col {
+    width: calc(100% / 5 - 40px);
+    min-height: 300px;
+    padding: 10px;
+
+}
+
+.ft-row{
+    display: flex;
+    justify-content: space-around;
 }
