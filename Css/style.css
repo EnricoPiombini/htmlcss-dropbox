@@ -195,12 +195,10 @@
 
 }
 
-.text{
+.text {
     margin-top: 25px;
 
 }
-
-
 
 .large-row {
     border: 1px solid grey;
@@ -227,7 +225,8 @@
 .business-photo {
     width: 200px;
 }
-.padding-2rem{
+
+.padding-2rem {
     padding: 2rem;
 }
 
@@ -242,39 +241,75 @@
     flex-grow: 1;
 }
 
-.square-container{
+.square-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.square-container .square{
+.square-container .square {
     height: calc(100vw / 6);
     width: 50%;
-    border: 1px solid red;
     padding: 6rem 0;
 }
 
-.row-box{
+.row-box {
     display: flex;
 }
 
-.col-box{
+.col-box {
     flex-grow: 1;
     flex-basis: 0;
 }
 
-.img-width-50{
+.img-width-50 {
     width: 50%;
 
 }
 
-.img-box{
-    width: 200px;
+.img-box {
+    width: 150px;
+    height: 75px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    object-fit: contain;
+    filter: invert(1);
+}
+
+.square-designit {
+    background-color:#A2D39B
+    
+}
+
+.square-asu {
+    background-color: #61082B;
 
 }
 
+.square-uniflorida {
+    background-color: #0093CE;
+
+}
+
+.square-topps {
+    background-color: #FF1C1C;
+
+}
+
+.square-bicycle{
+    background-color:#d5001f; ;
+}
+
+.square-hearst{
+    background-color:#ebebeb; ;
+}
+
+.square-lonelyplanet{
+background-color:#0052d8;;
+}
+
+.square-clearchannel{
+background-color:#ffd830; ;
+}
 
 .sixth-content {
     display: flex;
