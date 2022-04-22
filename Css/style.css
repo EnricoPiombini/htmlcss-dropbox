@@ -12,8 +12,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0.5rem;
-    padding-bottom: 30px;
+    padding: 1.5rem;
+    position: fixed;
+    z-index: 2;
+    background-color: #f5f5f5;
 
 }
 
@@ -61,7 +63,7 @@
 
 .main-final {
     background-color: #B4D0E7;
-    padding: 5rem;
+    padding: 2rem;
 }
 
 .s-title {
@@ -76,10 +78,11 @@
 
 .first-container-title {
     font-size: 55px;
-    padding: 1rem;
+    padding: 5rem 0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
-
+    position: relative;
+    top: 80px;
 
 }
 
@@ -117,14 +120,15 @@
     padding: .5rem;
     padding-bottom: .5rem;
 }
-.sub-content
-{
+
+.sub-content {
     max-width: 850px;
     min-width: 300px;
     margin: 0 auto;
-    
+
 }
-.sub-flex{
+
+.sub-flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -175,7 +179,7 @@
 }
 
 .radio-button {
-    padding: .5rem;
+    padding: 1.5rem 0;
 }
 
 .info-space {
@@ -263,7 +267,7 @@
     flex-basis: 0;
 }
 
-.col-middle{
+.col-middle {
     background-color: #F5F5F5;
 }
 
@@ -282,8 +286,7 @@
 }
 
 .square-designit {
-    background-color:#A2D39B
-    
+    background-color: #A2D39B
 }
 
 .square-asu {
@@ -301,20 +304,24 @@
 
 }
 
-.square-bicycle{
-    background-color:#d5001f; ;
+.square-bicycle {
+    background-color: #d5001f;
+    ;
 }
 
-.square-hearst{
-    background-color:#ebebeb; ;
+.square-hearst {
+    background-color: #ebebeb;
+    ;
 }
 
-.square-lonelyplanet{
-background-color:#0052d8;;
+.square-lonelyplanet {
+    background-color: #0052d8;
+    ;
 }
 
-.square-clearchannel{
-background-color:#ffd830; ;
+.square-clearchannel {
+    background-color: #ffd830;
+    ;
 }
 
 .sixth-content {
