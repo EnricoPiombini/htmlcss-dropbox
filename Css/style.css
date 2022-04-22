@@ -117,20 +117,22 @@
     padding: .5rem;
     padding-bottom: .5rem;
 }
-
-.second-content,
-.third-content,
-.fourth-content,
-.fifth-content,
-.sixth-content,
-.seventh-content {
-    max-width: 650px;
+.sub-content
+{
+    max-width: 850px;
     min-width: 300px;
     margin: 0 auto;
+    
+}
+.sub-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+
 .eigth-content {
-    width: 750px;
+    width: 950px;
     min-width: 350px;
     margin: 0 auto;
 }
@@ -259,6 +261,10 @@
 .col-box {
     flex-grow: 1;
     flex-basis: 0;
+}
+
+.col-middle{
+    background-color: #F5F5F5;
 }
 
 .img-width-50 {
