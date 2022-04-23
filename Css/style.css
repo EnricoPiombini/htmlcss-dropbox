@@ -167,8 +167,14 @@
     width: 20%;
 }
 
+.hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .hr-max-width {
     width: 100%;
+
 }
 
 .row-second-content {
@@ -227,6 +233,10 @@
 .text {
     margin-top: 25px;
 
+}
+
+.margin-right-10{
+    margin-right: 10px;
 }
 
 .large-row {
@@ -347,6 +357,7 @@
 
 }
 
+
 .sixth-content {
     display: flex;
     justify-content: space-between;
@@ -369,14 +380,14 @@
 }
 
 .ft-col {
-    width: calc(100% / 5 - 40px);
+    width: calc(100% / 5);
     min-height: 300px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .faq-questions {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -396,5 +407,11 @@
 .title-links {
     font-size: 20px;
     margin-bottom: 20px;
+
+}
+
+.w-100{
+    display: flex;
+    width: 100%;
 
 }
