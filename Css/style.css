@@ -23,18 +23,24 @@
     margin-bottom: 80px;
 }
 
-.radio-button{
+.radio-button {
     display: flex;
     padding: 3rem;
 }
 
-.button{
+.button {
     margin-right: 3rem;
 }
 
+.title-offering {
+    margin-bottom: 20px;
+}
+
+.plan-offering {
+    margin-bottom: 20px;
+}
 
 .btn-blue {
-
     background-color: #0061ff;
     color: white;
     border: #0061ff;
@@ -122,13 +128,17 @@
     top: 60px;
 }
 
+.blue-icon {
+    color: #0052d8;
+}
+
 .second-container {
     padding-top: 85px;
 }
 
 .info-plan {
     padding: .5rem;
-    padding-bottom: .5rem;
+    padding-bottom: 1.5rem;
 }
 
 .sub-content {
@@ -184,6 +194,7 @@
 
 .list-flex {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .icons {
@@ -241,11 +252,11 @@
 }
 
 .business-photo {
-    width: 200px;
+    width: 100%;
 }
 
-.padding-2rem {
-    padding: 2rem;
+.padding-3rem {
+    padding: 3rem;
 }
 
 .row-fourth-content {
@@ -267,7 +278,7 @@
 .square-container .square {
     height: calc(100vw / 6);
     width: 50%;
-    padding: 6rem 0;
+    padding: 3rem 0;
 }
 
 .row-box {
@@ -318,22 +329,22 @@
 
 .square-bicycle {
     background-color: #d5001f;
-    ;
+
 }
 
 .square-hearst {
     background-color: #ebebeb;
-    ;
+
 }
 
 .square-lonelyplanet {
     background-color: #0052d8;
-    ;
+
 }
 
 .square-clearchannel {
     background-color: #ffd830;
-    ;
+
 }
 
 .sixth-content {
@@ -379,12 +390,11 @@
     color: white;
     font-size: 15px;
     margin-bottom: 10px;
-    
+
 }
 
-.title-links{
+.title-links {
     font-size: 20px;
     margin-bottom: 20px;
-    
-}
 
+}
